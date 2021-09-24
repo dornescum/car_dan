@@ -11,9 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a {
+    cursor: pointer;
+}
 :root {
     --background: #ededed;
-    --grey: #ccc;
+    --grey: #eceaea;
     --primary: #326dee;
 
     --font-sm: .8rem;

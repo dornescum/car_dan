@@ -4,7 +4,7 @@ import  './desc.css'
 const Description = () => {
 	return (
 		<div className='container'>
-			<div className='description test' id='descriere'>
+			<div className='description test' id='description'>
 				<h3>Description</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores dolor eum ex incidunt numquam
 					perspiciatis, placeat rem ut voluptatum. Adipisci, assumenda dolor eos facere fuga inventore, nisi non

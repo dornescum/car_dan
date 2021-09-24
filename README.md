@@ -1,3 +1,13 @@
+"bootstrap": "^5.1.1", <br />
+"react": "^17.0.2", <br />
+"react-bootstrap": "^2.0.0-rc.0", <br />
+"react-dom": "^17.0.2", <br />
+"react-icons": "^4.2.0", <br />
+"react-scripts": "4.0.3", <br />
+"simple-react-lightbox": "^3.6.9-0", <br />
+"styled-components": "^5.3.1", <br />
+"web-vitals": "^1.1.2" <br />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -24,7 +24,7 @@ function App() {
 				<Info/>
 				<Galerry/>
 				<Detalii/>
-				<UsedCar/>
+				{/*<UsedCar/>*/}
 				<Price/>
 				<Footer/>
 			</div>

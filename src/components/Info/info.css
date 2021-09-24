@@ -1,5 +1,5 @@
 .info-card {
-    background: #ccc;
+    background: var(--grey);
     margin: 1rem 0;
     padding: 1rem 0 3rem 0;
 }
@@ -14,13 +14,32 @@
         padding: 30px;
     }
 }
+@media (max-width: 768px) {
+    .info-card #infoMiddle {
+        padding: 10px 12px;
+    }
+}
 .info-form {
     margin: 0.5rem;
+
+
 }
 .info-form .form-check {
     border: 1px solid #ccc;
     padding: 1rem 0.5rem;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: space-between;
 }
-.border {
+.info-form .form-check label {
+    text-transform: capitalize;
+}
+.border-card {
+    /*border: 1px solid #ccc;*/
     transition: all 0.3s ease;
+    background: var(--background);
+    border-radius: var(--radius);
+}
+.border-card:hover{
+    box-shadow: var(--dark-shadow);
 }
