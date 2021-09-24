@@ -1,0 +1,26 @@
+.info-card {
+    background: #ccc;
+    margin: 1rem 0;
+    padding: 1rem 0 3rem 0;
+}
+.info-card h3 {
+    text-align: center;
+}
+.info-card #infoMiddle {
+    padding: 5rem 0 0 0;
+}
+@media (max-width: 1200px) {
+    .info-card #infoMiddle {
+        padding: 30px;
+    }
+}
+.info-form {
+    margin: 0.5rem;
+}
+.info-form .form-check {
+    border: 1px solid #ccc;
+    padding: 1rem 0.5rem;
+}
+.border {
+    transition: all 0.3s ease;
+}

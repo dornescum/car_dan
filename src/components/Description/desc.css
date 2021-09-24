@@ -1,0 +1,13 @@
+.description {
+    padding: 1rem;
+    margin: 1rem;
+}
+.description h3 {
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .description {
+        padding: 0.2rem;
+        margin: 0.2rem;
+    }
+}

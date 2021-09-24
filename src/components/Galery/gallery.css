@@ -1,0 +1,31 @@
+.photo {
+    /*transition: all 0.3s ease;*/
+    object-fit: cover;
+}
+.photo img {
+    height: 16rem;
+    width: 100%;
+
+}
+@media (max-width: 1200px) {
+    .photo img {
+        height: 14rem;
+    }
+}
+@media (max-width: 960px) {
+    .photo img {
+        height: 20rem;
+    }
+}
+@media (max-width: 480px) {
+    .photo img {
+        height: 17rem;
+    }
+}
+.gallery {
+    padding: 1rem 0 3rem 0;
+}
+.gallery h3 {
+    text-align: center;
+    padding: 1rem;
+}

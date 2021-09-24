@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import NavbarB from "./components/UI/Navbar";
+import Description from "./components/Description/Description";
+import Info from "./components/Info/Info";
+import Galerry from "./components/Galery/Galerry";
+import Footer from "./components/UI/Footer";
+import UsedCar from "./components/UsedCar/UsedCar";
+import Price from "./components/Price/Price";
+import Detalii from "./components/Detalii/Detalii";
+import Hero from "./components/Hero/Hero";
+import {SRLWrapper} from "simple-react-lightbox";
+import SimpleReactLightbox from 'simple-react-lightbox';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<SimpleReactLightbox>
+			<div className="App">
+				<NavbarB/>
+				<Hero/>
+				<Description/>
+				<Info/>
+				<Galerry/>
+				<Detalii/>
+				<UsedCar/>
+				<Price/>
+				<Footer/>
+			</div>
+		</SimpleReactLightbox>
+	);
 }
 
 export default App;
