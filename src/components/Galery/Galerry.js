@@ -25,6 +25,8 @@ import img_11 from '../../assets/webp/11.webp';
 import img_11sm from '../../assets/webp/11-sm.webp';
 import img_12 from '../../assets/webp/12.webp';
 import img_12sm from '../../assets/webp/12-sm.webp';
+import img_test from '../../assets/17.webp';
+import test from '../../assets/1.jpg';
 
 
 const Galerry = () => {
@@ -35,9 +37,9 @@ const Galerry = () => {
 				<div className="row">
 
 					<div className="col-lg-3 col-sm-6 py-2">
-						<a href={img_1} className="photo">
+						<a href={test} className="photo">
 							<img
-								src={img_1sm}
+								src={test}
 								alt="Picture of the author"
 								srl_gallery_image="true"
 							/>

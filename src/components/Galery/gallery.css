@@ -3,23 +3,23 @@
     object-fit: cover;
 }
 .photo img {
-    height: 16rem;
+    /*height: 15rem;*/
     width: 100%;
 
 }
 @media (max-width: 1200px) {
     .photo img {
-        height: 14rem;
+        /*height: 14rem;*/
     }
 }
 @media (max-width: 960px) {
     .photo img {
-        height: 20rem;
+        /*height: 20rem;*/
     }
 }
 @media (max-width: 480px) {
     .photo img {
-        height: 17rem;
+        /*height: 17rem;*/
     }
 }
 .gallery {

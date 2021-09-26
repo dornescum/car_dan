@@ -13,6 +13,7 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NewInfo from "./components/NewInfo/NewInfo";
 
 function App() {
 	return (
@@ -20,8 +21,10 @@ function App() {
 			<div className="App">
 				<NavbarB/>
 				<Hero/>
+			
 				<Description/>
 				<Info/>
+				<NewInfo />
 				<Galerry/>
 				<Detalii/>
 				{/*<UsedCar/>*/}
