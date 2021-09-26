@@ -1,29 +1,42 @@
 .info-card {
-    background: var(--grey);
+    /*background: var(--grey);*/
     margin: 1rem 0;
     padding: 1rem 0 3rem 0;
 }
-.info-card h3 {
-    text-align: center;
+
+/*.info-card h3 {*/
+/*    text-align: center;*/
+/*}*/
+
+/*=============*/
+.fieldset {
+    position: relative;
+    border: 2px solid var(--background);
+    padding: 2rem 1rem;
+    border-radius: var(--radius);
+    background: #ffffff;
 }
-.info-card #infoMiddle {
-    padding: 5rem 0 0 0;
+
+.fieldset h1 {
+    position: absolute;
+    top: 0;
+    font-size: 1.1rem;
+    line-height: 1;
+    margin: -9px 0 0 2.5rem; /* half of font-size up top */
+    background: #fff;
+    padding: 0 2.5rem;
+    width: 25rem;
 }
-@media (max-width: 1200px) {
-    .info-card #infoMiddle {
-        padding: 30px;
-    }
-}
-@media (max-width: 768px) {
-    .info-card #infoMiddle {
-        padding: 10px 12px;
-    }
-}
+
+/*==============*/
+
+
 .info-form {
     margin: 0.5rem;
 
 
 }
+
 .info-form .form-check {
     border: 1px solid #ccc;
     padding: 1rem 0.5rem;
@@ -31,15 +44,41 @@
     display: flex;
     justify-content: space-between;
 }
+
 .info-form .form-check label {
     text-transform: capitalize;
 }
+
+.info-form .form-check input {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
 .border-card {
     /*border: 1px solid #ccc;*/
     transition: all 0.3s ease;
-    background: var(--background);
+    /*background: var(--background);*/
     border-radius: var(--radius);
 }
-.border-card:hover{
+
+.border-card:hover {
     box-shadow: var(--dark-shadow);
+}
+
+@media (max-width: 1200px) {
+
+    .fieldset h1 {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .fieldset h1 {
+        padding: 0 .5rem;
+        font-size: 1rem;
+        width: 15rem;
+    }
+
 }

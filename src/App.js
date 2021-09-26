@@ -23,7 +23,7 @@ function App() {
 				<Hero/>
 			
 				<Description/>
-				<Info/>
+				{/*<Info/>*/}
 				<NewInfo />
 				<Galerry/>
 				<Detalii/>

@@ -1,7 +1,9 @@
 .fieldset {
     position: relative;
-    border: 1px solid #ddd;
+    border: 1px solid var(--background);
     padding: 1rem;
+    border-radius: var(--radius);
+
 }
 
 .fieldset h1 {
@@ -9,9 +11,10 @@
     top: 0;
     font-size: 18px;
     line-height: 1;
-    margin: -9px 0 0 -0.5rem; /* half of font-size up top */
+    margin: -9px 0 0 2.5rem; /* half of font-size up top */
     background: #fff;
     padding: 0 2.5rem;
+    width: 25rem;
 }
 
 /*body {*/
