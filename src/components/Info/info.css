@@ -1,12 +1,7 @@
 .info-card {
-    /*background: var(--grey);*/
     margin: 1rem 0;
     padding: 1rem 0 3rem 0;
 }
-
-/*.info-card h3 {*/
-/*    text-align: center;*/
-/*}*/
 
 /*=============*/
 .fieldset {
@@ -25,16 +20,12 @@
     margin: -9px 0 0 2.5rem; /* half of font-size up top */
     background: #fff;
     padding: 0 2.5rem;
-    width: 25rem;
+    width: 18rem;
 }
-
 /*==============*/
-
 
 .info-form {
     margin: 0.5rem;
-
-
 }
 
 .info-form .form-check {
@@ -56,9 +47,7 @@
 }
 
 .border-card {
-    /*border: 1px solid #ccc;*/
     transition: all 0.3s ease;
-    /*background: var(--background);*/
     border-radius: var(--radius);
 }
 
@@ -67,14 +56,12 @@
 }
 
 @media (max-width: 1200px) {
-
     .fieldset h1 {
         padding: 0 1.5rem;
     }
 }
 
 @media (max-width: 768px) {
-
     .fieldset h1 {
         padding: 0 .5rem;
         font-size: 1rem;

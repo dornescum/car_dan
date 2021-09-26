@@ -32,8 +32,11 @@ import test from '../../assets/1.jpg';
 const Galerry = () => {
 	return (
 		<div className="container gallery" id='galerie'>
-			<h3>Galerie foto</h3>
 			<SRLWrapper>
+				<div className="fieldset">
+					<h1>Galerie foto</h1>
+
+
 				<div className="row">
 
 					<div className="col-lg-3 col-sm-6 py-2">
@@ -148,6 +151,9 @@ const Galerry = () => {
 							/>
 						</a>
 					</div>
+
+
+				</div>
 
 
 				</div>
