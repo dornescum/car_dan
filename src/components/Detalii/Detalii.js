@@ -24,19 +24,25 @@ const Li = styled.li`
 const LiL = styled.li`
   padding: .2rem 1rem;
   color: var(--primary);
+  @media (max-width: 480px) {
+    padding: .2rem .5rem;
+  }
+  @media (max-width: 320px) {
+    padding: .2rem .1rem;
+  }
 `;
 const Info = styled.div`
   padding: 1rem 0;
-  @media (max-width: 480px) {
+  @media (max-width: 720px) {
     width: 21.625rem;
     font-size: var(--font-sm);
   }
   @media (max-width: 480px) {
-    width: 21.625rem;
+    width: 20rem;
     font-size: var(--font-sm);
   }
   @media (max-width: 320px) {
-    width: 290px;
+    width: 260px;
   }
 `;
 

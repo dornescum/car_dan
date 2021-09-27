@@ -204,7 +204,7 @@ const NewInfo = () => {
 													   checked={true}/>
 											</div>
 											<div className="form-check mb-1 mt-1">
-												<label htmlFor="marca">ACCEPT ORICE PROBA SAU TEST SERVICEe</label>
+												<label htmlFor="marca">ACCEPT ORICE PROBA SAU TEST SERVICE</label>
 												<input type="checkbox" readOnly id="marca" placeholder="Opel"
 													   checked={true}/>
 											</div>
