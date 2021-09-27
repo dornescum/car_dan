@@ -8,12 +8,14 @@ import img_2sm from '../../assets/webp/2-sm.webp';
 import img_3 from '../../assets/webp/3.webp';
 import img_3sm from '../../assets/webp/3-sm.webp';
 import img_4 from '../../assets/webp/4.webp';
-import img_4sm from '../../assets/webp/4-sm.webp';
+// import img_4sm from '../../assets/webp/4-sm.webp';
+import img_4sm from '../../assets/webp/4-1sm.webp';
 import img_5 from '../../assets/webp/5.webp';
 import img_5sm from '../../assets/webp/5-sm.webp';
 import img_6 from '../../assets/webp/6.webp';
 import img_6sm from '../../assets/webp/6-sm.webp';
 import img_7 from '../../assets/webp/7.webp';
+import img_7s from '../../assets/webp/7.1.webp';
 import img_7sm from '../../assets/webp/7-sm.webp';
 import img_8 from '../../assets/webp/8.webp';
 import img_8sm from '../../assets/webp/8-sm.webp';
@@ -98,9 +100,9 @@ const Galerry = () => {
 
 					</div>
 					<div className="col-lg-3 col-sm-6 py-2">
-						<a href={img_7sm} className="photo">
+						<a href={img_7s} className="photo">
 							<img
-								src={img_7}
+								src={img_7s}
 								alt="Picture of the author"
 								srl_gallery_image="true"
 							/>
