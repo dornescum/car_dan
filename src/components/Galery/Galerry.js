@@ -1,22 +1,18 @@
 import React from 'react';
 import {SRLWrapper} from "simple-react-lightbox";
 import './gallery.css'
-// import img_1 from '../../assets/webp/1.webp';
-// import img_1sm from '../../assets/webp/1-sm.webp';
+
 import img_2 from '../../assets/webp/2.webp';
 import img_2sm from '../../assets/webp/2-sm.webp';
 import img_3 from '../../assets/webp/3.webp';
 import img_3sm from '../../assets/webp/3-sm.webp';
 import img_4 from '../../assets/webp/4.webp';
-// import img_4sm from '../../assets/webp/4-sm.webp';
 import img_4sm from '../../assets/webp/4-1sm.webp';
 import img_5 from '../../assets/webp/5.webp';
 import img_5sm from '../../assets/webp/5-sm.webp';
 import img_6 from '../../assets/webp/6.webp';
 import img_6sm from '../../assets/webp/6-sm.webp';
-// import img_7 from '../../assets/webp/7.webp';
 import img_7s from '../../assets/webp/7.1.webp';
-// import img_7sm from '../../assets/webp/7-sm.webp';
 import img_8 from '../../assets/webp/8.webp';
 import img_8sm from '../../assets/webp/8-sm.webp';
 import img_9 from '../../assets/webp/9.webp';

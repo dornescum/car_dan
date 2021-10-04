@@ -1,7 +1,5 @@
 import React from 'react';
-// import './newInfo.css';
-// import Fieldset from "../Utils/Fieldset";
-// import styled from "styled-components";
+
 
 
 

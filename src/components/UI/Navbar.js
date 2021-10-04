@@ -11,18 +11,11 @@ const NavbarB = () => {
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
-						{/*<Nav.Link href="#description">Descriere</Nav.Link>*/}
-						{/*<Nav.Link href="#info">Informatii</Nav.Link>*/}
-						{/*<Nav.Link href="#galerie">Galerie</Nav.Link>*/}
-						{/*<Nav.Link href="#used">Uzura</Nav.Link>*/}
-						{/*<Nav.Link href="#contact">Contact</Nav.Link>*/}
+
 
 					</Nav>
 					<Nav>
-						{/*<Nav.Link href="#deets">More deets</Nav.Link>*/}
-						{/*<Nav.Link eventKey={2} href="#memes">*/}
-						{/*	Dank memes*/}
-						{/*</Nav.Link>*/}
+
 						<Nav.Link href="#description">Descriere</Nav.Link>
 						<Nav.Link href="#info">Dotări</Nav.Link>
 						<Nav.Link href="#galerie">Galerie</Nav.Link>

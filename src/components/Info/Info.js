@@ -1,17 +1,6 @@
 import React from 'react';
 import './info.css';
-import styled from "styled-components";
 
-// const Fieldset = styled.fieldset`
-//   border: 1px solid red;
-//   border-radius: 3px;
-//   margin: 1rem 0;
-// `;
-// const Legend = styled.legend`
-//   margin-left: 2rem;
-//   color: blue;
-//
-// `;
 
 const Info = () => {
 	return (
