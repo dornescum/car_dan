@@ -18,8 +18,7 @@ const Col = styled.div`
 `;
 const Button = styled.button`
   padding: 1rem;
-  border-radius: 50%;
-
+  border-radius: 20%;
 `;
 const Para = styled.p`
   padding: 1rem 0 0 1rem;
@@ -46,7 +45,7 @@ const Footer = () => {
 							<FaPhoneAlt/>
 						</Button>
 						<div className="row">
-							{showNumber && <Para>898989</Para>}
+							{showNumber && <Para>+40 726 722 875</Para>}
 						</div>
 					</Col>
 					<Col>
@@ -54,7 +53,7 @@ const Footer = () => {
 							<FaEnvelope onClick={handleEmail}/>
 						</Button>
 						<div className="row">
-							{showEmail && <Para>email@ya</Para>}
+							{showEmail && <Para>cristea.daniel.petrut@gmail.com</Para>}
 						</div>
 					</Col>
 				</RowFooter>

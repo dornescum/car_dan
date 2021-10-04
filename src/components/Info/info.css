@@ -37,7 +37,7 @@
 }
 
 .info-form .form-check label {
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 
 .info-form .form-check input {

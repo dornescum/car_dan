@@ -2,8 +2,8 @@
     padding: 1rem;
     margin: 1rem;
 }
-.description h3 {
-    text-align: center;
+.description p {
+    text-indent: 30px;
 }
 @media (max-width: 480px) {
     .description {

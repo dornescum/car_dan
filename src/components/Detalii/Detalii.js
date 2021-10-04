@@ -48,291 +48,160 @@ const Info = styled.div`
 
 const Detalii = () => {
 	return (
-		<div className="container">
+		<div className="container" id="detaliiTehnice">
 			<div className="fieldset">
-				<h1>Cartea tehnica</h1>
+				<h1>Informații tehnice</h1>
 				<div className="row">
+
 					<div className="col-lg-6 col-sm-12">
 						<Info>
 							<Ul>
-								<LiL>
-									Categoria
-								</LiL>
-								<Li>
-									Autoturism M1
-								</Li>
+								<LiL>Categoria</LiL>
+								<Li>Autoturism M1</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Caroseria
-								</LiL>
-								<Li>
-									AB berlina cu hayon
-								</Li>
+								<LiL>Caroseria</LiL>
+								<Li>AB berlina cu hayon</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Marca
-								</LiL>
-								<Li>
-									Opel
-								</Li>
-							</Ul>
-
-							<Ul>
-								<LiL>
-									Tipul varianta
-								</LiL>
-								<Li>
-									T98/DX11/Astra-G-CC
-								</Li>
+								<LiL>Marca</LiL>
+								<Li>Opel</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Nr de omologare / Anul fabricatiei
-								</LiL>
-								<Li>
-									ABPL123V11W77E4 / 2009
-								</Li>
+								<LiL>Tipul varianta</LiL>
+								<Li>T98/DX11/Astra-G-CC</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Nr de identificare
-								</LiL>
-								<Li>
-									WOLOTGF489G041519
-								</Li>
-							</Ul>
-
-
-						</Info>
-					</div>
-					<div className="col-lg-6 col-sm-12">
-						<Info>
-							<Ul>
-								<LiL>
-									Masa proprie
-								</LiL>
-								<Li>
-									1205 kg
-								</Li>
+								<LiL>Nr de omologare / Anul fabricației</LiL>
+								<Li>ABPL123V11W77E4 / 2009</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Masa totala maxima autorizata
-								</LiL>
-								<Li>
-									1670 kg
-								</Li>
+								<LiL>Nr. de identificare</LiL>
+								<Li>W0L0TGF489G041519</Li>
 							</Ul>
-							<Ul>
-								<LiL>
-									Sarcina maxima utila autorizata
-								</LiL>
-								<Li>
-									465 kg
-								</Li>
-							</Ul>
-
-							<Ul>
-								<LiL>
-									Sarcina pe carligul de remorcare
-								</LiL>
-								<Li>
-									75 kg
-								</Li>
-							</Ul>
-							<Ul>
-								<LiL>
-									Maxima autorizata pe axe
-								</LiL>
-								<Li>
-									Fata /875 &nbsp; Spate /820
-								</Li>
-							</Ul>
-
 						</Info>
 					</div>
 
-
-
 					<div className="col-lg-6 col-sm-12">
 						<Info>
 							<Ul>
-								<LiL>
-									Remorcabila cu dispozitiv de franare
-								</LiL>
-								<Li>
-									1150
-								</Li>
+								<LiL>Tip motor</LiL>
+								<Li>Z16XEP</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Remorcabila cu dispozitiv de franare
-								</LiL>
-								<Li>
-									570
-								</Li>
+								<LiL>Serie motor</LiL>
+								<Li>20MY2208</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Nr de locuri
-								</LiL>
-								<Li>
-									5
-								</Li>
-							</Ul>
-							<Ul>
-								<LiL>
-									Dimensiunile de gabarit (mm)
-								</LiL>
-								<Li>
-									L 4110 &nbsp;&nbsp; I 1709 &nbsp; &nbsp;h 1425
-								</Li>
-							</Ul>
-
-						</Info>
-					</div>
-					<div className="col-lg-6 col-sm-12">
-						<Info>
-							<Ul>
-								<LiL>
-									Tip motor
-								</LiL>
-								<Li>
-									Z16XEP
-								</Li>
-							</Ul>
-							<Ul>
-								<LiL>
-									Serie motor
-								</LiL>
-								<Li>
-									20MY2208
-								</Li>
-							</Ul>
-							<Ul>
-								<LiL>
-									Cilindree (cm3)
-								</LiL>
-								<Li>
-									1598
-								</Li>
+								<LiL>Cilindree</LiL>
+								<Li>1598 cm3</Li>
 							</Ul>
 
 							<Ul>
-								<LiL>
-									Putere maxima(kW)/ Turatie (min-1)
-								</LiL>
-								<Li>
-									76 / 6000
-								</Li>
+								<LiL>Putere maximă</LiL>
+								<Li>76 kW (101 CP)</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Sursa de energie
-								</LiL>
-								<Li>
-									BENZINA
-								</Li>
+								<LiL>Sursa de energie</LiL>
+								<Li>BENZINA</Li>
 							</Ul>
-
-
-
+							<Ul>
+								<LiL>Norma de poluare</LiL>
+								<Li>EURO 4</Li>
+							</Ul>
 						</Info>
 					</div>
 
-
 					<div className="col-lg-6 col-sm-12">
 						<Info>
 							<Ul>
-								<LiL>
-									Numarul axelor
-								</LiL>
-								<Li>
-									2
-								</Li>
+								<LiL>Masă proprie</LiL>
+								<Li>1205 Kg</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Tractiune
-								</LiL>
-								<Li>
-									FATA
-								</Li>
+								<LiL>Masă totală maximă autorizată</LiL>
+								<Li>1670 Kg</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Dimensiunea anvelopelor
-								</LiL>
-								<Li>
-								</Li>
+								<LiL>Sarcină utilă maximă autorizată</LiL>
+								<Li>465 Kg</Li>
+							</Ul>
+							<Ul>
+								<LiL>Sarcină pe cârligul de remorcare</LiL>
+								<Li>75 Kg</Li>
+							</Ul>
+							<Ul>
+								<LiL>Masă maximă autorizată pe axa față</LiL>
+								<Li>875 Kg</Li>
+							</Ul>
+							<Ul>
+								<LiL>Masă maximă autorizată pe axa spate</LiL>
+								<Li>820 Kg</Li>
+							</Ul>
+							<Ul>
+								<LiL>Masă remorcabilă cu dispozitiv de frânare</LiL>
+								<Li>1150 Kg</Li>
+							</Ul>
+							<Ul>
+								<LiL>Masă remorcabilă fără dispozitiv de frânare</LiL>
+								<Li>570 Kg</Li>
 							</Ul>
 
 							<Ul>
-								<LiL>
-									Fata
-								</LiL>
-								<Li>
-									195/60 R15 88 H &nbsp; &nbsp; sau &nbsp; &nbsp; 185/65 R15 88 H
-								</Li>
+								<LiL>Tracțiune</LiL>
+								<Li>FAȚĂ</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Mijloc-spate
-								</LiL>
-								<Li>
-									195/60 R15 88 H &nbsp; &nbsp; sau &nbsp; &nbsp; 185/65 R15 88 H
-								</Li>
+								<LiL>Nr. de locuri</LiL>
+								<Li>5</Li>
 							</Ul>
 						</Info>
 					</div>
+
 					<div className="col-lg-6 col-sm-12">
 						<Info>
 							<Ul>
-								<LiL>
-									Zgomotul (db(A)) in mers
-								</LiL>
-								<Li>
-									71
-								</Li>
+								<LiL>Lungime (L)</LiL>
+								<Li>4110 mm</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Zgomotul (db(A)) in stationare
-								</LiL>
-								<Li>
-									83
-								</Li>
+								<LiL>Lățime (l)</LiL>
+								<Li>1709 mm</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Viteza maxima (Km/h)
-								</LiL>
-								<Li>
-									188
-								</Li>
+								<LiL>Înălțime (h)</LiL>
+								<Li>1425 mm</Li>
 							</Ul>
 
 							<Ul>
-								<LiL>
-									Capacitatea rezervorului
-								</LiL>
-								<Li>
-									52 L
-								</Li>
+								<LiL>Dimensiune anvelope față</LiL>
+								<Li>195/60 R15 88H &nbsp; sau &nbsp; 185/65 R15 88H</Li>
 							</Ul>
 							<Ul>
-								<LiL>
-									Culoarea
-								</LiL>
-								<Li>
-									GRI
-								</Li>
+								<LiL>Dimensiune anvelope spate</LiL>
+								<Li>195/60 R15 88H &nbsp; sau &nbsp; 185/65 R15 88H</Li>
 							</Ul>
 
-
-
+							<Ul>
+								<LiL>Zgomotul în mers</LiL>
+								<Li>71 db(A)</Li>
+							</Ul>
+							<Ul>
+								<LiL>Zgomotul în staționare</LiL>
+								<Li>83 db(A)</Li>
+							</Ul>
+							<Ul>
+								<LiL>Viteza maximă</LiL>
+								<Li>188 Km/h</Li>
+							</Ul>
+							<Ul>
+								<LiL>Capacitatea rezervorului</LiL>
+								<Li>52 L</Li>
+							</Ul>
+							<Ul>
+								<LiL>Culoarea</LiL>
+								<Li>GRI</Li>
+							</Ul>
 						</Info>
 					</div>
 

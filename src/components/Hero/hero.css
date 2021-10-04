@@ -13,9 +13,10 @@
 
 .hero__title {
     position: absolute;
-    bottom: 15%;
-    right: 10%;
+    bottom: 10%;
+    right: 5%;
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 15px;
+    background: #1a1e2177;
 }
