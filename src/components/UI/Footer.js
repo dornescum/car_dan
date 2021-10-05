@@ -18,6 +18,7 @@ const Col = styled.div`
 `;
 const Button = styled.button`
   padding: 1rem;
+  margin: 0 1rem;
   border-radius: 20%;
 `;
 const Para = styled.p`
