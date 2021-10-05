@@ -37,7 +37,7 @@ const Description = () => {
 
                 <p>
                     <i>"Bine, bine, daca e așa de bună, de ce o vinzi?"</i>&nbsp;
-                    Păi, ca să facem loc în viețile noastre unei noi mașini: Mazda CX-30.
+                    Păi, ca să facem loc în viețile noastre unei noi mașini.
                     De data asta, am vrut sa vedem cum este să ai mașină nouă.
                     E o senzație plăcută (mai puțin când trebuie să plătești rata);
                     încă mă acomodez cu dimensiunile noii mașini (chiar dacă e plină de senzori).

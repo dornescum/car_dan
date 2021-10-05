@@ -41,7 +41,7 @@ const Footer = () => {
 			<div className="container">
 				<RowFooter>
 					<Col>
-						<Button onClick={handleNumber} aria-label="phone button" title='test'>
+						<Button onClick={handleNumber} aria-label="phone button">
 							<FaPhoneAlt/>
 						</Button>
 						<div className="row">
