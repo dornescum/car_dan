@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {FaEnvelope, FaPhoneAlt} from 'react-icons/fa';
 import styled from "styled-components";
-import {resultEmail, resultNumber} from "../../assets/data";
 
 const FooterMain = styled.div`
   background: black;
@@ -29,16 +28,14 @@ const Para = styled.a`
 `;
 
 const Footer = () => {
-
 	const [showNumber, setShowNumber] = useState(false);
 	const [showEmail, setShowEmail] = useState(false);
 
 	const handleNumber = () => {
-		setShowNumber(resultNumber);
-
+		setShowNumber(!showNumber);
 	};
 	const handleEmail = () => {
-		setShowEmail(resultEmail);
+		setShowEmail(!showEmail);
 	};
 
 	return (
@@ -50,7 +47,7 @@ const Footer = () => {
 							<FaPhoneAlt/>
 						</Button>
 						<div className="row">
-							{showNumber && <Para  href='tel:0726 722 875' data-testid='button-email' value={showNumber}>{showNumber}</Para>}
+							{showNumber && <Para  href='tel:0726 722 875' data-testid='button-email' value={showNumber}>+40 726 722 875</Para>}
 						</div>
 					</Col>
 					<Col>
@@ -58,7 +55,7 @@ const Footer = () => {
 							<FaEnvelope onClick={handleEmail}/>
 						</Button>
 						<div className="row">
-							{showEmail && <Para href='mailto:cristea.daniel.petrut@gmail.com'>{showEmail}</Para>}
+							{showEmail && <Para href='mailto:cristea.daniel.petrut@gmail.com'>cristea.daniel.petrut@gmail.com</Para>}
 						</div>
 					</Col>
 				</RowFooter>
