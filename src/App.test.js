@@ -36,12 +36,12 @@ test('renders learn react link', () => {
 //   // expect(btn).toBeInTheDocument();
 //   expect(btn).toBeInTheDOM();
 // });
-test('btn phone', () => {
-  const {queryByTitle} = render(<Footer />);
-  const btn = queryByTitle("test")
-  // expect(btn).toBeTruthy();
-  expect(btn).toBeInTheDocument();
-  // expect(btn).toBeInTheDOM();
-});
+// test('btn phone', () => {
+//   const {queryByTitle} = render(<Footer />);
+//   const btn = queryByTitle("test")
+//   // expect(btn).toBeTruthy();
+//   expect(btn).toBeInTheDocument();
+//   // expect(btn).toBeInTheDOM();
+// });
 
 afterEach(cleanup)

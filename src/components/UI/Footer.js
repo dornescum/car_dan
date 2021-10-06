@@ -21,9 +21,10 @@ const Button = styled.button`
   margin: 0 1rem;
   border-radius: 20%;
 `;
-const Para = styled.p`
+const Para = styled.a`
   padding: 1rem 0 0 1rem;
   color: white;
+  text-decoration: none;
 `;
 
 const Footer = () => {
@@ -42,11 +43,11 @@ const Footer = () => {
 			<div className="container">
 				<RowFooter>
 					<Col>
-						<Button onClick={handleNumber} aria-label="phone button">
+						<Button onClick={handleNumber} aria-label="phone button" data-testid='button-telefon'>
 							<FaPhoneAlt/>
 						</Button>
 						<div className="row">
-							{showNumber && <Para>+40 726 722 875</Para>}
+							{showNumber && <Para  href='tel:0726 722 875' data-testid='button-email' value={showNumber}>+40 726 722 875</Para>}
 						</div>
 					</Col>
 					<Col>
@@ -54,7 +55,7 @@ const Footer = () => {
 							<FaEnvelope onClick={handleEmail}/>
 						</Button>
 						<div className="row">
-							{showEmail && <Para>cristea.daniel.petrut@gmail.com</Para>}
+							{showEmail && <Para href='mailto:cristea.daniel.petrut@gmail.com'>cristea.daniel.petrut@gmail.com</Para>}
 						</div>
 					</Col>
 				</RowFooter>
