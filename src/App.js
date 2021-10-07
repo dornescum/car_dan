@@ -4,11 +4,9 @@ import Description from "./components/Description/Description";
 import Info from "./components/Info/Info";
 import Galerry from "./components/Galery/Galerry";
 import Footer from "./components/UI/Footer";
-// import UsedCar from "./components/UsedCar/UsedCar";
 import Price from "./components/Price/Price";
-import Detalii from "./components/Detalii/Detalii";
+import Details from "./components/Details/Details";
 import Hero from "./components/Hero/Hero";
-// import {SRLWrapper} from "simple-react-lightbox";
 import SimpleReactLightbox from 'simple-react-lightbox';
 
 
@@ -21,13 +19,10 @@ function App() {
 			<div className="App">
 				<NavbarB/>
 				<Hero/>
-			
 				<Description/>
-				{/*<Info/>*/}
 				<NewInfo />
 				<Galerry/>
-				<Detalii/>
-				{/*<UsedCar/>*/}
+				<Details/>
 				<Price/>
 				<Footer/>
 			</div>

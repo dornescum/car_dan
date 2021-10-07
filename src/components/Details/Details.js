@@ -46,7 +46,7 @@ const Info = styled.div`
   }
 `;
 
-const Detalii = () => {
+const Details = () => {
 	return (
 		<div className="container" id="detaliiTehnice">
 			<div className="fieldset">
@@ -211,4 +211,4 @@ const Detalii = () => {
 	);
 };
 
-export default Detalii;
+export default Details;
