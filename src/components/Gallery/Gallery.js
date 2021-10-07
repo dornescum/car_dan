@@ -1,5 +1,6 @@
 import React from 'react';
 import {SRLWrapper} from "simple-react-lightbox";
+import SimpleReactLightbox from 'simple-react-lightbox';
 import './gallery.css'
 
 import img_2 from '../../assets/webp/2.webp';
@@ -28,6 +29,7 @@ import mainImage from '../../assets/webp/main.webp';
 
 const Gallery = () => {
 	return (
+		<SimpleReactLightbox>
 		<div className="container gallery" id='galerie'>
 			<SRLWrapper>
 				<div className="fieldset">
@@ -151,6 +153,7 @@ const Gallery = () => {
 			</SRLWrapper>
 
 		</div>
+		</SimpleReactLightbox>
 	);
 };
 
