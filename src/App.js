@@ -1,7 +1,6 @@
 import './App.css';
 import NavbarB from "./components/UI/Navbar";
 import Description from "./components/Description/Description";
-import Info from "./components/Info/Info";
 import Galerry from "./components/Galery/Galerry";
 import Footer from "./components/UI/Footer";
 import Price from "./components/Price/Price";
