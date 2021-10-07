@@ -26,7 +26,7 @@ import img_12sm from '../../assets/webp/12-sm.webp';
 import mainImage from '../../assets/webp/main.webp';
 
 
-const Galerry = () => {
+const Gallery = () => {
 	return (
 		<div className="container gallery" id='galerie'>
 			<SRLWrapper>
@@ -154,4 +154,4 @@ const Galerry = () => {
 	);
 };
 
-export default Galerry;
+export default Gallery;

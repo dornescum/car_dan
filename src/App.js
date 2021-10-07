@@ -1,7 +1,7 @@
 import './App.css';
 import NavbarB from "./components/UI/Navbar";
 import Description from "./components/Description/Description";
-import Galerry from "./components/Galery/Galerry";
+import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/UI/Footer";
 import Price from "./components/Price/Price";
 import Details from "./components/Details/Details";
@@ -20,7 +20,7 @@ function App() {
 				<Hero/>
 				<Description/>
 				<NewInfo />
-				<Galerry/>
+				<Gallery/>
 				<Details/>
 				<Price/>
 				<Footer/>
