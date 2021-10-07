@@ -11,6 +11,7 @@ const PriceVal = styled.div`
 const Logo = styled.img`
   display: block;
   margin: 0 auto;
+  border: 1px solid #FFFFFF;
   &:hover {
 	border: 1px solid #ccc;
   }
