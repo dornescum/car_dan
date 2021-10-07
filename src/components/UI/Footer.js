@@ -42,6 +42,12 @@ const Footer = () => {
 		setShowEmail(!showEmail);
 	};
 
+    // Obfuscate phone number and email address
+    let phoneNumber = atob('MDcyNiA3MjIgODc1');
+    let PhoneNumberLink = 'tel' + ':' + phoneNumber;
+    let emailAddress = atob('Y3Jpc3RlYS5kYW5pZWwucGV0cnV0QGdtYWlsLmNvbQ==');
+    let emailAddressLink = 'mai' + 'lto:' + emailAddress;
+
 	return (
 		<FooterMain id='contact'>
 			<div className="container">
@@ -51,7 +57,7 @@ const Footer = () => {
 							<FaPhoneAlt/>
 						</Button>
 						<div className="row">
-							{showNumber && <Para href='tel:0726 722 875' value={showNumber}>+40 726 722 875</Para>}
+							{showNumber && <Para href={PhoneNumberLink} value={showNumber}>{phoneNumber}</Para>}
 						</div>
 					</Col>
 					<Col>
@@ -59,7 +65,7 @@ const Footer = () => {
 							<FaEnvelope onClick={handleEmail}/>
 						</Button>
 						<div className="row">
-							{showEmail && <Para href='mailto:cristea.daniel.petrut@gmail.com'>cristea.daniel.petrut@gmail.com</Para>}
+							{showEmail && <Para href={emailAddressLink}>{emailAddress}</Para>}
 						</div>
 					</Col>
 				</RowFooter>
