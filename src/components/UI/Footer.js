@@ -17,14 +17,18 @@ const Col = styled.div`
   align-content: center;
 `;
 const Button = styled.button`
-  padding: 1rem;
-  margin: 0 1rem;
+  padding: 1rem 1.2rem;
+  margin: 0 0.3rem;
   border-radius: 20%;
 `;
 const Para = styled.a`
   padding: 1rem 0 0 1rem;
   color: white;
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: #ffffff;
+  }
 `;
 
 const Footer = () => {
@@ -43,11 +47,11 @@ const Footer = () => {
 			<div className="container">
 				<RowFooter>
 					<Col>
-						<Button onClick={handleNumber} aria-label="phone button" data-testid='button-telefon'>
+						<Button onClick={handleNumber} aria-label="phone button">
 							<FaPhoneAlt/>
 						</Button>
 						<div className="row">
-							{showNumber && <Para  href='tel:0726 722 875' data-testid='button-email' value={showNumber}>+40 726 722 875</Para>}
+							{showNumber && <Para href='tel:0726 722 875' value={showNumber}>+40 726 722 875</Para>}
 						</div>
 					</Col>
 					<Col>
