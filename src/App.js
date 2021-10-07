@@ -6,9 +6,9 @@ import Footer from "./components/UI/Footer";
 import Price from "./components/Price/Price";
 import Details from "./components/Details/Details";
 import Hero from "./components/Hero/Hero";
+import NewInfo from "./components/NewInfo/NewInfo";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NewInfo from "./components/NewInfo/NewInfo";
 
 function App() {
 	return (

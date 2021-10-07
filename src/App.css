@@ -1,6 +1,32 @@
 
 .App {
  position: relative;
-
 }
 
+.fieldset {
+ position: relative;
+ border: 2px solid var(--background);
+ padding: 2rem 1rem;
+ border-radius: var(--radius);
+ background: #ffffff;
+}
+
+.fieldset h1 {
+ position: absolute;
+ top: 0;
+ font-size: 1.1rem;
+ line-height: 1;
+ margin: -9px 0 0 2.5rem; /* half of font-size up top */
+ background: #fff;
+ padding: 0 2.5rem;
+ width: 18rem;
+}
+
+@media (max-width: 768px) {
+ .fieldset h1 {
+  padding: 0 .5rem;
+  font-size: 1rem;
+  width: 15rem;
+ }
+
+}
