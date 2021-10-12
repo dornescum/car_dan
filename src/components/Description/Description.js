@@ -8,7 +8,7 @@ const Description = () => {
                 <p>
                     Salut, sunt Daniel și locuiesc în București, împreună cu soția și cei doi copii.
                     După cum probabil v-ați dat seama, vând mașina :). Este vorba despre un &nbsp;
-                    <b>Opel Astra G Hatchback din 2009</b>, pe benzină, cu motor de 1.6 L aspirat natural.
+                    <b data-testid="bold-font">Opel Astra G Hatchback din 2009</b>, pe benzină, cu motor de 1.6 L aspirat natural.
                     O să găsiți mai multe detalii tehnice mai jos.
                 </p>
 

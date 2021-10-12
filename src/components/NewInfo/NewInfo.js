@@ -15,7 +15,7 @@ const NewInfo = () => {
 										<form action="" className="info-form br-xs">
 											<div className="form-check mb-1 mt-1">
 												<label>Airbag-uri frontale</label>
-												<input type="checkbox" readOnly checked={true} />
+												<input type="checkbox" readOnly checked={true} aria-checked={true} data-testid='check-btn'/>
 											</div>
 											<div className="form-check mb-1 mt-1">
 												<label>Asistență la frânare (ABS)</label>

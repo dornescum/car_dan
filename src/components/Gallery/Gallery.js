@@ -151,7 +151,6 @@ const Gallery = () => {
 
 				</div>
 			</SRLWrapper>
-
 		</div>
 		</SimpleReactLightbox>
 	);

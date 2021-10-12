@@ -20,7 +20,7 @@
 .env
 
 #data
-/assets/data.js
+/data.js
 
 
 npm-debug.log*

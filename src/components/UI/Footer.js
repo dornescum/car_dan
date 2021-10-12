@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {FaEnvelope, FaPhoneAlt} from 'react-icons/fa';
 import styled from "styled-components";
+// import {resultEmail, resultNumber} from "../../assets/data";
 
 const FooterMain = styled.div`
   background: black;
@@ -32,6 +33,7 @@ const Para = styled.a`
 `;
 
 const Footer = () => {
+
 	const [showNumber, setShowNumber] = useState(false);
 	const [showEmail, setShowEmail] = useState(false);
 
@@ -53,7 +55,7 @@ const Footer = () => {
 			<div className="container">
 				<RowFooter>
 					<Col>
-						<Button onClick={handleNumber} aria-label="phone button">
+						<Button onClick={handleNumber} aria-label="phone button" data-testid='phone-btn'>
 							<FaPhoneAlt/>
 						</Button>
 						<div className="row">
@@ -61,8 +63,8 @@ const Footer = () => {
 						</div>
 					</Col>
 					<Col>
-						<Button aria-label="show email">
-							<FaEnvelope onClick={handleEmail}/>
+						<Button aria-label="show email" onClick={handleEmail}>
+							<FaEnvelope />
 						</Button>
 						<div className="row">
 							{showEmail && <Para href={emailAddressLink}>{emailAddress}</Para>}
