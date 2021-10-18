@@ -86,7 +86,7 @@ const NewInfo = () => {
 												<input type="checkbox" readOnly checked={true} />
 											</div>
 											<div className="form-check mb-1 mt-1">
-												<label>Casetofon cu radio și cd (original)</label>
+												<label>Radio și cd player (original)</label>
 												<input type="checkbox" readOnly checked={true} />
 											</div>
 										</form>
@@ -110,11 +110,11 @@ const NewInfo = () => {
 												<input type="checkbox" readOnly checked={true} />
 											</div>
 											<div className="form-check mb-1 mt-1">
-												<label>RCA valabil: 17.10.2021 (cu posibilitatea de prelungire)</label>
+												<label>RCA valabil: 17.11.2021</label>
 												<input type="checkbox" readOnly checked={true} />
 											</div>
 											<div className="form-check mb-1 mt-1">
-												<label>Rulaj: 130600 Km</label>
+												<label>Rulaj: 130850 Km</label>
 												<input type="checkbox" readOnly checked={true} />
 											</div>
 											<div className="form-check mb-1 mt-1">
@@ -127,6 +127,10 @@ const NewInfo = () => {
 											</div>
 											<div className="form-check mb-1 mt-1">
 												<label>Tapițerie îngrijită (mașina a fost folosită doar cu huse)</label>
+												<input type="checkbox" readOnly checked={true} />
+											</div>
+											<div className="form-check mb-1 mt-1">
+												<label>Ștergătoare noi - Bosch AeroTwin (parbriz+lunetă)</label>
 												<input type="checkbox" readOnly checked={true} />
 											</div>
 										</form>
