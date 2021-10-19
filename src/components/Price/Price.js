@@ -47,7 +47,7 @@ const Price = () => {
 							</a>
 						</div>
 						<div className="col-lg-6">
-							<Info>Preț: 2500 Euro (negociabil)</Info>
+							<Info>Preț: 2400 Euro (negociabil)</Info>
 						</div>
 					</div>
 			</div>
