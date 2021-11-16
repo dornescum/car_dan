@@ -1,0 +1,36 @@
+.show-modal {
+    display: block;
+    background: var(--background);
+    height: 13vh;
+    border-radius: var(--radius);
+
+}
+.show-modal img {
+    height: 30rem;
+    width: 100%;
+
+}
+
+.hide-modal {
+    display: none;
+}
+
+.modal-car {
+    position: fixed;
+    left: 1rem;
+    top: 5rem;
+    z-index: 100;
+    /*height: 10vh;*/
+    /*width: 70%;*/
+    margin: 5rem auto;
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
+}
+/*.modal-car h1{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*}*/
+.btn-modal {
+    border: none;
+    background: var(--background);
+}

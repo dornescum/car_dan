@@ -1,32 +1,52 @@
 
 .App {
- position: relative;
+    position: relative;
 }
 
 .fieldset {
- position: relative;
- border: 2px solid var(--background);
- padding: 2rem 1rem;
- border-radius: var(--radius);
- background: #ffffff;
+    position: relative;
+    border: 2px solid var(--background);
+    padding: 2rem 1rem;
+    border-radius: var(--radius);
+    background: #ffffff;
 }
 
 .fieldset h1 {
- position: absolute;
- top: 0;
- font-size: 1.1rem;
- line-height: 1;
- margin: -9px 0 0 2.5rem; /* half of font-size up top */
- background: #fff;
- padding: 0 2.5rem;
- width: 18rem;
+    position: absolute;
+    top: 0;
+    font-size: 1.1rem;
+    line-height: 1;
+    margin: -9px 0 0 2.5rem; /* half of font-size up top */
+    background: #fff;
+    padding: 0 2.5rem;
+    width: 18rem;
 }
 
 @media (max-width: 768px) {
- .fieldset h1 {
-  padding: 0 .5rem;
-  font-size: 1rem;
-  width: 15rem;
- }
+    .fieldset h1 {
+        padding: 0 .5rem;
+        font-size: 1rem;
+        width: 15rem;
+    }
 
 }
+
+/*.show-modal {*/
+/*    display: block;*/
+/*    background: magenta;*/
+/*}*/
+
+/*.hide-modal {*/
+/*    display: none;*/
+/*}*/
+
+/*.modal-car {*/
+/*    position: fixed;*/
+/*    left: 10rem;*/
+/*    top: 5rem;*/
+/*    z-index: 100;*/
+/*    height: 10vh;*/
+/*    width: 70%;*/
+/*    margin: 5rem auto;*/
+/*    !*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*!*/
+/*}*/
