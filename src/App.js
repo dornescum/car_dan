@@ -9,11 +9,13 @@ import Price from "./components/Price/Price";
 import Details from "./components/Details/Details";
 import Hero from "./components/Hero/Hero";
 import NewInfo from "./components/NewInfo/NewInfo";
+import Modal from "./components/Modal/Modal";
 
 function App() {
 	return (
 		<div className="App">
 			<NavbarB/>
+			<Modal><h1>test</h1></Modal>
 			<Hero/>
 			<Description/>
 			<NewInfo />
