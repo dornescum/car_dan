@@ -43,7 +43,7 @@ const Price = () => {
 					<div className="row">
 						<div className="col-lg-6">
 							<a href={raport} target='_blank' className='logo' download=''>
-								<Logo src={logo} alt=""/>
+								<Logo src={logo} alt="logo"/>
 							</a>
 						</div>
 						<div className="col-lg-6">

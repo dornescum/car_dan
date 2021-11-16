@@ -29,7 +29,7 @@ function App() {
 					<button onClick={handlerModal} className='btn-modal'>
 						<FaTimes />
 					</button>
-					<img src="https://www.publicdomainpictures.net/pictures/210000/velka/sold-stamp.jpg" alt=""/>
+					<img src="https://www.publicdomainpictures.net/pictures/210000/velka/sold-stamp.jpg" alt="sold image" data-testid='sold-img'/>
 				</div>
 			</Modal>
 			<Hero/>

@@ -48,7 +48,7 @@ const Info = styled.div`
 
 const Details = () => {
 	return (
-		<div className="container" id="detaliiTehnice">
+		<div className="container" id="detaliiTehnice" aria-label="Secondary description">
 			<div className="fieldset">
 				<h1>Informații tehnice</h1>
 				<div className="row">

@@ -43,6 +43,7 @@ const Gallery = () => {
 								src={mainImage}
 								alt="Exterior"
 								srl_gallery_image="true"
+								aria-label='Exterior'
 							/>
 						</a>
 					</div>
@@ -50,8 +51,9 @@ const Gallery = () => {
 						<a href={img_12} className="photo">
 							<img
 								src={img_12sm}
-								alt="Exterior"
+								alt="Exterior1"
 								srl_gallery_image="true"
+								aria-label='Exterior1'
 							/>
 						</a>
 					</div>
@@ -59,8 +61,9 @@ const Gallery = () => {
 						<a href={img_11} className="photo">
 							<img
 								src={img_11sm}
-								alt="Exterior"
+								alt="Exterior2"
 								srl_gallery_image="true"
+								aria-label='Exterior2'
 							/>
 						</a>
 					</div>
@@ -68,8 +71,9 @@ const Gallery = () => {
 						<a href={img_10} className="photo">
 							<img
 								src={img_10sm}
-								alt="Exterior"
+								alt="Exterior3"
 								srl_gallery_image="true"
+								aria-label='Exterior3'
 							/>
 						</a>
 					</div>
@@ -80,6 +84,7 @@ const Gallery = () => {
 								src={img_2sm}
 								alt="Rulaj: 130600 Km"
 								srl_gallery_image="true"
+								aria-label='Rulaj: 130600 Km'
 							/>
 						</a>
 					</div>
@@ -89,6 +94,7 @@ const Gallery = () => {
 								src={img_3sm}
 								alt="Bord"
 								srl_gallery_image="true"
+								aria-label='Bord'
 							/>
 						</a>
 					</div>
@@ -96,8 +102,9 @@ const Gallery = () => {
 						<a href={img_4} className="photo">
 							<img
 								src={img_4sm}
-								alt="Bord"
+								alt="Bord detaliat"
 								srl_gallery_image="true"
+								aria-label='Bord detaliat'
 							/>
 						</a>
 					</div>
@@ -107,6 +114,7 @@ const Gallery = () => {
 								src={img_7s}
 								alt="Geamuri electrice față și spate (cu blocare geamuri spate - pentru copii)"
 								srl_gallery_image="true"
+								aria-label='Geamuri electrice față și spate (cu blocare geamuri spate - pentru copii)'
 							/>
 						</a>
 					</div>
@@ -117,6 +125,7 @@ const Gallery = () => {
 								src={img_5sm}
 								alt="Interior - față"
 								srl_gallery_image="true"
+								aria-label='Interior - față'
 							/>
 						</a>
 					</div>
@@ -126,6 +135,7 @@ const Gallery = () => {
 								src={img_6}
 								alt="Interior - spate"
 								srl_gallery_image="true"
+								aria-label='Interior - spate'
 							/>
 						</a>
 					</div>
@@ -135,6 +145,7 @@ const Gallery = () => {
 								src={img_8sm}
 								alt="Portbagaj încăpător"
 								srl_gallery_image="true"
+								aria-label='Portbagaj încăpător'
 							/>
 						</a>
 					</div>
@@ -144,6 +155,7 @@ const Gallery = () => {
 								src={img_9sm}
 								alt="Roată de rezervă (nefolosită)"
 								srl_gallery_image="true"
+								aria-label='Roată de rezervă (nefolosită)'
 							/>
 						</a>
 					</div>
