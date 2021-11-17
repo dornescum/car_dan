@@ -7,6 +7,8 @@
 "simple-react-lightbox": "^3.6.9-0", <br />
 "styled-components": "^5.3.1", <br />
 "web-vitals": "^1.1.2" <br />
+"cypress": "^9.0.0",
+
 
 # Getting Started with Create React App
 
