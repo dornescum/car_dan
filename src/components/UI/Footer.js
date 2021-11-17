@@ -63,7 +63,7 @@ const Footer = () => {
 						</div>
 					</Col>
 					<Col>
-						<Button aria-label="show email" onClick={handleEmail}>
+						<Button aria-label="show email" onClick={handleEmail} data-testid="button-email">
 							<FaEnvelope />
 						</Button>
 						<div className="row">

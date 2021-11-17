@@ -4,7 +4,7 @@ import Description from "../Description";
 test('check if text Opel Astra G Hatchback din 2009 exits', ()=>{
 	render(<Description />);
 	const checkTest = screen.getByText('Opel Astra G Hatchback din 2009');
-	expect(checkTest.textContent).toBe('Opel Astra G Hatchback din 2009')
+	expect(checkTest.textContent).toBe('Opel Astra G Hatchback din 2009');
 
 })
 test('check for bold text', ()=>{

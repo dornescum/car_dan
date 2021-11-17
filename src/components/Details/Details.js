@@ -55,7 +55,7 @@ const Details = () => {
 
 					<div className="col-lg-6 col-sm-12">
 						<Info>
-							<Ul>
+							<Ul data-testid='ul-test'>
 								<LiL data-testid='li-test'>Categoria</LiL>
 								<Li>Autoturism M1</Li>
 							</Ul>

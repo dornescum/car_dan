@@ -8,7 +8,8 @@ test('check for color font', ()=>{
 });
 test('check ul color', ()=>{
 	render(<Details />);
-	const UL = screen.getByRole('ul');
+	// const UL = screen.getByRole('ul');
+	const UL = screen.getByTestId('ul-test');
 	expect(UL).toHaveStyle({color:'var(--primary)'})
 
 })

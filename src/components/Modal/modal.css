@@ -1,9 +1,11 @@
 .show-modal {
     display: block;
-    background: var(--background);
+    /*background: var(--background);*/
     height: 13vh;
     border-radius: var(--radius);
+    cursor: not-allowed;
 }
+
 .show-modal img {
     height: 30rem;
     width: 100%;
@@ -15,7 +17,7 @@
 
 .modal-car {
     position: fixed;
-    left: 28rem;
+    left: 40rem;
     top: 5rem;
     z-index: 100;
     /*height: 10vh;*/
@@ -23,6 +25,7 @@
     margin: 5rem auto;
     /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
 }
+
 /*.modal-car h1{*/
 /*    display: flex;*/
 /*    justify-content: center;*/
@@ -30,43 +33,81 @@
 /*}*/
 .btn-modal {
     border: none;
-    background: var(--background);
-    height: 1rem;
-    width: 1rem;
+    background: transparent;
+    color: #db2247;
+    height: 3rem;
+    width: 3rem;
+    top: 0;
+    left: 3rem;
+    position: absolute;
+    display: none;
 }
+
+.btn-modal svg {
+    width: 4rem;
+    height: 3rem;
+}
+
 @media (max-width: 1366px) {
     .modal-car {
-        left: 12rem;
+        left: 23rem;
     }
 }
+
 @media (max-width: 1024px) {
-    /*.modal-car {*/
-    /*    left: 12rem;*/
-    /*}*/
+    .modal-car {
+        left: 22rem;
+    }
     .show-modal img {
         height: 19rem;
     }
+
+    .btn-modal {
+        display: none;
+    }
 }
+
 @media (max-width: 768px) {
     .modal-car {
-        left: 1rem;
+        left: 12rem;
     }
+
     .show-modal img {
-        height: 22rem;
+        height: 20rem;
+    }
+
+    .btn-modal {
+        top: 0;
+        left: 0;
+        display: none;
     }
 }
+
 @media (max-width: 480px) {
     .modal-car {
-        left: 1rem;
+        left: 6rem;
     }
+
     .show-modal img {
         height: 10rem;
     }
+
+    .btn-modal {
+        top: -2rem;
+        left: -3rem;
+    }
+
+    .btn-modal svg {
+        width: 4rem;
+        height: 2rem;
+    }
 }
+
 @media (max-width: 320px) {
     .modal-car {
-        left: 1rem;
+        left: 5rem;
     }
+
     .show-modal img {
         height: 8rem;
     }

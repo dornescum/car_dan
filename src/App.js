@@ -11,7 +11,10 @@ import Details from "./components/Details/Details";
 import Hero from "./components/Hero/Hero";
 import NewInfo from "./components/NewInfo/NewInfo";
 import Modal from "./components/Modal/Modal";
+import Backdrop from "./components/UI/Backdrop/BackDrop";
 import {useState} from "react";
+
+import sold from '../src/assets/sold-sm.webp'
 
 
 
@@ -24,14 +27,17 @@ function App() {
 	return (
 		<div className="App">
 			<NavbarB/>
-			<Modal>
-				<div className={showModal ? 'show-modal':'hide-modal'}>
+			{showModal && 	<Modal>
+				<div className={showModal ? 'show-modal':'hide-modal'} data-testid='show-modal'>
 					<button onClick={handlerModal} className='btn-modal'>
 						<FaTimes />
 					</button>
-					<img src="https://www.publicdomainpictures.net/pictures/210000/velka/sold-stamp.jpg" alt="sold image" data-testid='sold-img'/>
+					{/*<img src="https://www.publicdomainpictures.net/pictures/210000/velka/sold-stamp.jpg" alt="sold image" data-testid='sold-img'/>*/}
+					<img src={sold} alt="sold image" data-testid='sold-img'/>
 				</div>
-			</Modal>
+			</Modal>}
+			{showModal && <Backdrop onClick={handlerModal}/>}
+
 			<Hero/>
 			<Description/>
 			<NewInfo/>
