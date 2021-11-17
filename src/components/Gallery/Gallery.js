@@ -44,6 +44,7 @@ const Gallery = () => {
 								alt="Exterior"
 								srl_gallery_image="true"
 								aria-label='Exterior'
+								data-testid='exterior'
 							/>
 						</a>
 					</div>
