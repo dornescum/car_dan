@@ -37,17 +37,17 @@ const Info = styled.h5`
 
 const Price = () => {
 	return (
-		<PriceVal>
+		<PriceVal data-testid='price'>
 			<div className="container">
 
 					<div className="row">
 						<div className="col-lg-6">
-							<a href={raport} target='_blank' className='logo' download=''>
+							<a href={raport} target='_blank' className='logo' download='' data-testid='logo'>
 								<Logo src={logo} alt="logo"/>
 							</a>
 						</div>
 						<div className="col-lg-6">
-							<Info>Preț: 2100 Euro (negociabil)</Info>
+							<Info id='final-price'>Preț: 2100 Euro (negociabil)</Info>
 						</div>
 					</div>
 			</div>
