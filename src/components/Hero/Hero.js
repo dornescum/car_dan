@@ -9,7 +9,7 @@ const Hero = () => {
 		<div className="hero">
 			<img src={mainImage} alt="Opel Astra G" className="hero__image" id='home' />
 
-			<h1 className="hero__title">Prima dragoste nu se uită niciodată
+			<h1 className="hero__title">Prima ! dragoste nu se uită niciodată
 				{/*<FaHeart> </FaHeart>*/}
 				<FaGrinBeam />
 			</h1>
